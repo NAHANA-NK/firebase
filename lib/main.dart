@@ -1,6 +1,7 @@
 import 'package:firebase/screens/add_task_page.dart';
 import 'package:firebase/screens/login_page.dart';
 import 'package:firebase/screens/register_page.dart';
+import 'package:firebase/screens/splashpage.dart';
 import 'package:firebase/screens/todo_home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,9 @@ class MyApp extends StatelessWidget {
         '/':(context)=>  loginview(),
         '/register':(context)=>registerview(),
         '/home':(context)=>todohomepage(),
-        '/addtask':(context)=>addtaskview()
+        '/addtask':(context)=>addtaskview(),
+        '/splash':(context)=>splashview(),
+
       },
       theme: ThemeData(
 
